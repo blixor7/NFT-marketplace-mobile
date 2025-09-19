@@ -1,28 +1,70 @@
-<h1>nft_market</h1>
-<p>A simple app where users can place bids on NFTs and see current bids</p>
+# NFT Market Mobile App
 
-<h2>Technologies Used</h2>
-<li>React Native</li>
+A React Native mobile application for browsing and bidding on NFTs.
 
-<h2>Features</h2>
-<li>Responsive, adjusted for any screen size</li>
-<li>Search feature to search for NFTs</li>
+## Overview
 
-<h2>Setup</h2>
-<p>Need an emulator to run the app</p>
+This mobile application allows users to:
+- Browse available NFTs
+- Place bids on NFT items
+- View current bids in real-time
+- Search through NFT collections
 
-<h5>Steps</h5>
-<li>iOS &amp; Android package installation - run npm install / yarn add to get packages</li>
-<li>Start server - npm start / yarn start</li>
-<li>Run app - npx react-native run-android / npx react-native run-ios</li>
+## Technical Details
 
-<h2>Project Status</h2>
-<p>In progress</p>
+- **Framework**: React Native
+- **Platforms**: iOS and Android compatible
+- **Features**: Responsive design, search functionality
+- **Status**: Development in progress
 
-<h2>Improvements</h2>
-<li>Background colors could have been better</li>
-<li>More functionality and implementation of APIs to pull realtime NFT data</li>
+## Development Setup
 
-<h2>Features that can be added</h2>
-<li>Plan on implementing a landing page in the near future</li>
+### Prerequisites
+- Node.js and npm/yarn
+- React Native development environment
+- iOS simulator (Xcode) or Android emulator
+
+### Installation
+
+1. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+2. Start the development server:
+```bash
+npm start
+# or
+yarn start
+```
+
+3. Run on specific platform:
+```bash
+# For Android
+npx react-native run-android
+
+# For iOS
+npx react-native run-ios
+```
+
+## Current Features
+
+- Responsive design that adapts to various screen sizes
+- NFT search functionality
+- Bid placement interface
+- Current bid display
+
+## Planned Improvements
+
+- Enhanced color scheme and UI design
+- Integration with real NFT APIs for live data
+- Additional landing page screens
+- Expanded bidding functionality
+
+## Project Status
+
+This project is currently in active development with ongoing improvements and feature additions.
+
 
